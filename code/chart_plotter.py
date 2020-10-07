@@ -45,7 +45,7 @@ class chart_plotter:
         x = equal_allocations_portfolio['Risk']
         y = equal_allocations_portfolio['Return']
         name = equal_allocations_portfolio['Portfolio']
-        self.plot_single_point(x,y,'Portfolio: '+name, 'black')
+        self.plot_single_point(x,y,'Equal Allocation', 'black')
     
 
     def plot_prices(self, closing_prices):
